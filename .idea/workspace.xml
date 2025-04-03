@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/eldoria_simulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eldoria_simulation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_simulation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flexible_simulation.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,64 +45,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_grid.TestEldoriaGrid.executor": "Run",
-    "Python tests.Python tests for test_grid.TestEldoriaGrid.test_add_entity.executor": "Run",
-    "Python tests.Python tests for test_grid.TestEldoriaGrid.test_move_entity.executor": "Run",
-    "Python tests.Python tests for test_grid.TestEldoriaGrid.test_remove_entity.executor": "Run",
-    "Python tests.Python tests for test_grid.TestEldoriaGrid.test_wrap_around.executor": "Run",
-    "Python tests.Python tests for test_hunter.TestTreasureHunter.executor": "Run",
-    "Python tests.Python tests for test_hunter.TestTreasureHunter.test_hunter_collapse.executor": "Run",
-    "Python tests.Python tests for test_hunter.TestTreasureHunter.test_memory_updates.executor": "Run",
-    "Python tests.Python tests for test_hunter.TestTreasureHunter.test_skill_specific_behavior.executor": "Run",
-    "Python tests.Python tests for test_hunter.TestTreasureHunter.test_treasure_collection.executor": "Run",
-    "Python tests.Python tests for test_hunter.TestTreasureHunter.test_treasure_prioritization.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.test_initialization.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.test_position_handling.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.test_string_representation.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.test_treasure_types.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.test_value_decay.executor": "Run",
-    "Python tests.Python tests for test_treasure.TestTreasure.test_value_increase.executor": "Run",
-    "Python tests.Python tests in test_grid.py.executor": "Run",
-    "Python tests.Python tests in test_hunter.py.executor": "Run",
-    "Python tests.Python tests in test_treasure.py.executor": "Run",
-    "Python.auto_simulation.executor": "Run",
-    "Python.eldoria_gui.executor": "Run",
-    "Python.flexible_simulation.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.run_gui.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/2410007/Documents/GitHub/eldoria_simulation",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_grid.TestEldoriaGrid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grid.TestEldoriaGrid.test_add_entity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grid.TestEldoriaGrid.test_move_entity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grid.TestEldoriaGrid.test_remove_entity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grid.TestEldoriaGrid.test_wrap_around.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_hunter.TestTreasureHunter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_hunter.TestTreasureHunter.test_hunter_collapse.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_hunter.TestTreasureHunter.test_memory_updates.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_hunter.TestTreasureHunter.test_skill_specific_behavior.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_hunter.TestTreasureHunter.test_treasure_collection.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_hunter.TestTreasureHunter.test_treasure_prioritization.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.test_initialization.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.test_position_handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.test_string_representation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.test_treasure_types.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.test_value_decay.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_treasure.TestTreasure.test_value_increase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_grid.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_hunter.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_treasure.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auto_simulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eldoria_gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flexible_simulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get-pip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_gui.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2410007/Desktop/get-pip.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.run_gui">
-    <configuration name="eldoria_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="eldoria_simulation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/eldoria_gui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="eldoria_simulation" />
       <option name="ENV_FILES" value="" />
@@ -149,18 +126,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_hunter.TestTreasureHunter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="eldoria_simulation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hunter.TestTreasureHunter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_hunter.TestTreasureHunter.test_memory_updates" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="eldoria_simulation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hunter.TestTreasureHunter.test_memory_updates&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_hunter.TestTreasureHunter.test_skill_specific_behavior" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="eldoria_simulation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hunter.TestTreasureHunter.test_skill_specific_behavior&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_gui" />
-        <item itemvalue="Python.eldoria_gui" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for test_hunter.TestTreasureHunter.test_memory_updates" />
+        <item itemvalue="Python tests.Python tests for test_hunter.TestTreasureHunter" />
+        <item itemvalue="Python tests.Python tests for test_hunter.TestTreasureHunter.test_skill_specific_behavior" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -219,16 +243,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gui/eldoria_gui.py</url>
-          <line>195</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
